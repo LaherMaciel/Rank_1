@@ -6,7 +6,7 @@
 /*   By: lwencesl <laherwpayotmaciel@gmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/03 16:41:52 by lwencesl          #+#    #+#             */
-/*   Updated: 2023/01/21 19:44:49 by lwencesl         ###   ########.fr       */
+/*   Updated: 2023/02/06 17:48:43 by lwencesl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,5 @@
 # endif
 
 char	*get_next_line(int fd);
-int		clean(int newline, int x, int y, char *buffer);
-size_t	ft_strlen(char *a);
-char	*ft_strjoin(char *s1, char *s2);
 
 #endif

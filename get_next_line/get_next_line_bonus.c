@@ -6,11 +6,15 @@
 /*   By: lwencesl <laherwpayotmaciel@gmail.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/21 19:57:33 by lwencesl          #+#    #+#             */
-/*   Updated: 2023/01/21 20:20:05 by lwencesl         ###   ########.fr       */
+/*   Updated: 2023/02/06 17:48:18 by lwencesl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
+
+int		clean(int newline, int x, int y, char *buffer);
+size_t	ft_strlen(char *a);
+char	*ft_strjoin(char *s1, char *s2);
 
 char	*get_next_line(int fd)
 {
